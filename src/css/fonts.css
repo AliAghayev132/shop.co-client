@@ -1,0 +1,65 @@
+/* #region Satoshi */
+@font-face {
+    font-weight: 400;
+    src: url("../assets/fonts/Satoshi/SatoshiRegular.otf");
+    font-family: "Satoshi";
+}
+
+@font-face {
+    font-weight: 500;
+    src: url("../assets/fonts/Satoshi/SatoshiMedium.otf");
+    font-family: "Satoshi";
+}
+
+@font-face {
+    font-weight: 300;
+    src: url("../assets/fonts/Satoshi/SatoshiLight.otf");
+    font-family: "Satoshi";
+}
+
+@font-face {
+    font-weight: 700;
+    src: url("../assets/fonts/Satoshi/SatoshiBold.otf");
+    font-family: "Satoshi";
+}
+
+@font-face {
+    font-weight: 900;
+    src: url("../assets/fonts/Satoshi/SatoshiBlack.otf");
+    font-family: "Satoshi";
+}
+
+/* #endregion */
+
+/* #region IntegralCF */
+@font-face {
+    font-weight: 400;
+    src: url("../assets/fonts/IntegralCF/IntegralCFRegular.otf");
+    font-family: "IntegralCF";
+}
+
+@font-face {
+    font-weight: 500;
+    src: url("../assets/fonts/IntegralCF/IntegralCFMedium.otf");
+    font-family: "IntegralCF";
+}
+
+@font-face {
+    font-weight: 600;
+    src: url("../assets/fonts/IntegralCF/IntegralCFSemibold.otf");
+    font-family: "IntegralCF";
+}
+
+@font-face {
+    font-weight: 700;
+    src: url("../assets/fonts/IntegralCF/IntegralCFBold.otf");
+    font-family: "IntegralCF";
+}
+
+@font-face {
+    font-weight: 800;
+    src: url("../assets/fonts/IntegralCF/IntegralCFExtrabold.otf");
+    font-family: "IntegralCF";
+}
+
+/* #endregion */
