@@ -1,1 +1,468 @@
 @import "./root.css";
+
+
+.row {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0 80px 0 80px;
+}
+
+.nav {
+    margin-top: 20px;
+
+    width: 1240px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_title {
+    padding-bottom: 30px;
+    padding-right: 30px;
+    width: 160px;
+    height: 22px;
+    font-family: "IntegralCF";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+
+    padding-top: 8px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+
+}
+
+.row1 {
+    display: flex;
+    height: 48px;
+    align-items: center;
+}
+
+.nav_subtitles {
+    width: 351px;
+    height: 22px;
+
+    opacity: 1;
+    padding: 24px;
+    padding-left: 20px;
+
+    a {
+        width: 57px;
+        height: 22px;
+
+        padding: 4px;
+        font-family: "Satoshi";
+        font-weight: 300;
+
+        font-size: 16px;
+
+        line-height: 100%;
+        letter-spacing: 0%;
+        opacity: 0.8;
+
+
+        color: rgb(0, 0, 0);
+    }
+}
+
+.searchinput {
+    background: #F0F0F0;
+
+    margin-top: 10px;
+    display: flex;
+    border: 1px solid rgb(221, 221, 221);
+    width: 577px;
+    height: 48px;
+
+    opacity: 1;
+    gap: 12px;
+    border-radius: 62px;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    margin-right: 10px;
+    margin-left: 20px;
+
+}
+
+input {
+    border: none;
+    background-color: transparent;
+}
+
+.searchicon {
+    height: 24px;
+    width: 24px;
+
+
+}
+
+.vektoricon {
+    height: 16px;
+    width: 16px;
+    padding-top: 7px;
+}
+
+.iconnav {
+    padding: 12px 0px 12px 34px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+}
+
+.icon {
+
+    width: 24px;
+    height: 24px;
+}
+
+hr {
+    opacity: 0.4;
+}
+
+.roadtitle {
+    margin-top: 10px;
+    width: 259px;
+    height: 22px;
+
+
+    a {
+
+        height: 16px;
+        font-size: 16px;
+        padding-left: 4px;
+
+        opacity: 0.6;
+        color: black;
+
+    }
+}
+
+.containerMenu {
+    margin: 0 auto;
+    max-width: 1240px;
+    display: flex;
+    gap: 40px;
+}
+
+.leftMenu {
+    display: flex;
+    margin-top: 40px;
+}
+
+.smallTshirts {
+    margin-right: 20px;
+}
+
+.tshirtstype {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.rightMenu {
+    margin-top: 40px;
+
+}
+
+.menutitle {
+    font-family: "IntegralCF";
+    font-weight: 500;
+    font-style: Bold;
+    font-size: 40px;
+
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin-bottom: 8px;
+
+
+
+}
+
+.prices {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.price {
+    font-family: "Satoshi";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+    span {
+        opacity: 0.4;
+        text-decoration: line-through;
+    }
+}
+
+.saledegre {
+    background-color: #FF33331A;
+    text-decoration: none;
+    color: #ff5e5e;
+    width: 62px;
+    height: 31px;
+    font-size: 16px;
+    opacity: 1;
+    gap: 12px;
+    border-radius: 62px;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+
+
+}
+
+.about {
+    font-family: "Satoshi";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+
+    line-height: 22px;
+    letter-spacing: 0%;
+
+}
+
+.about {
+    opacity: 0.6;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid rgb(226, 223, 223);
+}
+
+p {
+    opacity: 0.6;
+}
+
+.selectcolors {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgb(240, 238, 238);
+}
+
+.color1 {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    opacity: 1;
+    background-color: #4F4631;
+    ;
+
+}
+
+.color2 {
+    background: #314F4A;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+}
+
+.color3 {
+    background: #31344F;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+}
+
+button {
+
+
+    height: 46px;
+    top: 600px;
+    left: 750px;
+    gap: 12px;
+    border-radius: 24px;
+    opacity: 1;
+    border: none;
+    padding: 9px 18px;
+    color: grey;
+
+
+}
+
+.sizebtn {
+    margin-top: 30px;
+    margin-right: 6px;
+    margin-bottom: 20px;
+}
+
+.active {
+    background-color: black;
+    color: #fff;
+}
+
+.paybtn {
+    border-top: 1px solid rgb(236, 236, 236);
+    padding: 25px 0px;
+    display: flex;
+    gap: 15px;
+
+}
+
+.quantity {
+    display: inline-flex;
+    align-items: center;
+
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #F0F0F0;
+    width: 170px;
+    height: 52px;
+
+
+
+}
+
+.quantity button {
+    border: none;
+    background: none;
+
+    font-size: 20px;
+}
+
+.quantity .num {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.addpaybtn {
+    width: 400px;
+    height: 52px;
+}
+
+.commentcontainer {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Satoshi";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    border-bottom: 1px solid rgb(215, 215, 215);
+    padding-bottom: 25px;
+    color: grey;
+
+}
+
+.activecommet {
+    color: black;
+    padding-bottom: 23px;
+
+
+
+}
+
+.allreviews {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.allreviewstitle {
+    font-family: "Satoshi";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    padding-top: 30px;
+
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+
+.allreviewstitle_btn {
+    padding-top: 30px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.commentcards {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.commentcard {
+    border: 1px solid rgb(240, 239, 239);
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.comment_people {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 14px;
+    margin-bottom: 18px;
+}
+
+.popular {
+    display: flex;
+    justify-content: space-between;
+}
+
+.morebtn {
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 62px;
+    padding-top: 16px;
+    padding-right: 54px;
+    padding-bottom: 16px;
+    padding-left: 54px;
+    gap: 12px;
+    background: #fff;
+    color: black;
+    opacity: 1;
+    border-width: 1px;
+
+
+}
+
+.load {
+    border: 1px solid rgb(236, 232, 232);
+}
+
+.typename {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "IntegralCF";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.thirtstype {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
