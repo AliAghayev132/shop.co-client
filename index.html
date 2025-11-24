@@ -5,10 +5,486 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+
+    <!-- #region External CSS -->
+
     <link rel="stylesheet" href="./src/css/main.css">
+
+    <!-- #endregion -->
+
+    <!-- #region Swiper Link -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- #endregion -->
+
 </head>
 
 <body>
+    <header>
+
+        <!-- #region Sign Up Now -->
+
+        <div class="sign__up__now__div">
+            <p class="sign__up__now__div__p">Sign up and get 20% off to your first order. <span
+                    class="sign__up__now__div__p__span"> Sign Up Now</span></p>
+            <img class="sign__up__now__div__icon" src="./src/assets/icons/CloseIcon.svg">
+        </div>
+
+        <!-- #endregion -->
+        
+        <!-- #region Navbar -->
+
+        <nav class="nav">
+            <h1 class="nav__title">SHOP.CO</h1>
+            <div class="nav__links">
+                <a class="nav__link" href="#">Shop <img class="vector__icon"
+                        src="./src/assets/icons/VectorIcon.svg"></a>
+                <a class="nav__link" href="#">On Sale</a>
+                <a class="nav__link" href="#">New Arrivals</a>
+                <a class="nav__link" href="#">Brands</a>
+            </div>
+            <div class="searchicon__input">
+                <img class="search__icon" src="./src/assets/icons/SearchIcon.svg">
+                <input class="nav__input" placeholder="Search for products...">
+            </div>
+            <div class="nav__icons">
+                <img class="cart__icon" src="./src/assets/icons/CartIcon.svg">
+                <img class="user__icon" src="./src/assets/icons/UserIcon.svg">
+            </div>
+        </nav>
+
+        <!-- #endregion -->
+
+    </header>
+    <main>
+
+        <!-- #region Hero -->
+
+        <section class="hero">
+            <div class="bg__image">
+                <div class="container">
+                    <h1 class="hero__title">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+                    <img class="hero__star__icon2" src="./src/assets/icons/StarIcon.svg">
+                    <p class="hero__subtitle">Browse through our diverse range of meticulously crafted garments,
+                        designed to bring out your
+                        individuality and cater to your sense of style.</p>
+                    <img class="hero__star__icon" src="./src/assets/icons/StarIcon.svg">
+                    <button type="button" class="hero__btn">Shop Now</button>
+                    <div class="hero__stats">
+                        <div class="hero__stat">
+                            <h1 class="hero__stat__title">200+</h1>
+                            <p class="hero__stat__subtitle">International Brands</p>
+                        </div>
+                        <div class="hero__stat__line">________</div>
+                        <div class="hero__stat">
+                            <h1 class="hero__stat__title">2,000+</h1>
+                            <p class="hero__stat__subtitle">High-Quality Products</p>
+                        </div>
+                        <div class="hero__stat__line">________</div>
+                        <div class="hero__stat">
+                            <h1 class="hero__stat__title">30,000+</h1>
+                            <p class="hero__stat__subtitle">Happy Customers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__bottom">
+                <div class="hero__bottom__content">
+                    <img src="./src/assets/icons/VersaceIcon.svg">
+                    <img src="./src/assets/icons/ZaraIcon.svg">
+                    <img src="./src/assets/icons/GucciIcon.svg">
+                    <img src="./src/assets/icons/PradaIcon.svg">
+                    <img src="./src/assets/icons/CalvinKleinIcon.svg">
+                </div>
+            </div>
+        </section>
+
+        <!-- #endregion -->
+
+        <!-- #region New Arrivals -->
+
+        <section class="new__arrivals">
+            <div class="container">
+                <h1 class="new__arrivals__title">NEW ARRIVALS</h1>
+                <div class="new__arrivals__cards">
+                    <div class="new__arrivals__card">
+                        <img class="new__arrivals__card__img" src="./src/assets/images/tshirt.png">
+                        <p class="new__arrivals__card__title">T-shirt with Tape Details</p>
+                        <div class="card__stars__rating">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/HalfYellowStarIcon.svg">
+                            <p class="new__arrivals__card__rating">4.5/5</p>
+                        </div>
+                        <p class="new__arrivals__card__price">$120</p>
+                    </div>
+                    <div class="new__arrivals__card">
+                        <img class="new__arrivals__card__img" src="./src/assets/images/skinnyFitJeans.png">
+                        <p class="new__arrivals__card__title">Skinny Fit Jeans</p>
+                        <div class="card__stars__rating">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/HalfYellowStarIcon.svg">
+                            <p class="new__arrivals__card__rating">3.5/5</p>
+                        </div>
+                        <div class="card__prices">
+                            <p class="new__arrivals__card__price">$240</p>
+                            <p class="new__arrivals__card__price2">$260</p>
+                            <p class="new__arrivals__card__price__percent">-20%</p>
+                        </div>
+                    </div>
+                    <div class="new__arrivals__card">
+                        <img class="new__arrivals__card__img" src="./src/assets/images/checkeredShirt.png">
+                        <p class="new__arrivals__card__title">Checkered Shirt</p>
+                        <div class="card__stars__rating">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/HalfYellowStarIcon.svg">
+                            <p class="new__arrivals__card__rating">4.5/5</p>
+                        </div>
+                        <p class="new__arrivals__card__price">$180</p>
+                    </div>
+                    <div class="new__arrivals__card">
+                        <img class="new__arrivals__card__img" src="./src/assets/images/sleeveStripedTshirt.png">
+                        <p class="new__arrivals__card__title">Sleeve Striped T-shirt</p>
+                        <div class="card__stars__rating">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/HalfYellowStarIcon.svg">
+                            <p class="new__arrivals__card__rating">4.5/5</p>
+                        </div>
+                        <div class="card__prices">
+                            <p class="new__arrivals__card__price">$130</p>
+                            <p class="new__arrivals__card__price2">$160</p>
+                            <p class="new__arrivals__card__price__percent">-30%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="new__arrivals__btn__div">
+                    <button class="new__arrivals__btn">Wiew All</button>
+                </div>
+                <div class="new__arrivals__line"></div>
+            </div>
+        </section>
+
+        <!-- #endregion -->
+
+        <!-- #region Top Selling -->
+
+        <section class="top__selling">
+            <div class="conatiner">
+                <h1 class="top__selling__title">Top Selling</h1>
+                <div class="top__selling__cards">
+                    <div class="top__selling__card">
+                        <img class="top__selling__card__img" src="./src/assets/images/verticalStripeShirt.png">
+                        <p class="top__selling__card__title">Vertical Striped Shirt</p>
+                        <div class="card__stars__rating">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <p class="top__selling__card__rating">5.0/5</p>
+                        </div>
+                        <div class="card__prices">
+                            <p class="top__selling__card__price">$212</p>
+                            <p class="top__selling__card__price2">$232</p>
+                            <p class="top__selling__card__price__percent">-20%</p>
+                        </div>
+                    </div>
+                    <div class="top__selling__card">
+                        <img class="top__selling__card__img" src="./src/assets/images/courageGraphicTshirt.png">
+                        <p class="top__selling__card__title">Courage Graphic T-shrit</p>
+                        <div class="card__stars__rating">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <p class="top__selling__card__rating">4.0/5</p>
+                        </div>
+                        <p class="top__selling__card__price">$145</p>
+                    </div>
+                    <div class="top__selling__card">
+                        <img class="top__selling__card__img" src="./src/assets/images/looseFitBermudaShorts.png">
+                        <p class="top__selling__card__title">Loose Fit Bermuda Shorts</p>
+                        <div class="card__stars__rating">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <p class="top__selling__card__rating">3.0/5</p>
+                        </div>
+                        <p class="top__selling__card__price">$80</p>
+                    </div>
+                    <div class="top__selling__card">
+                        <img class="top__selling__card__img" src="./src/assets/images/fadedSkinnyJeans.png">
+                        <p class="top__selling__card__title">Faded Skinny Jeans</p>
+                        <div class="card__stars__rating">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/YellowStarIcon.svg">
+                            <img src="./src/assets/icons/HalfYellowStarIcon.svg">
+                            <p class="top__selling__card__rating">4.5/5</p>
+                        </div>
+                        <p class="top__selling__card__price">$210</p>
+                    </div>
+                </div>
+                <div class="top__selling__btn__div">
+                    <button class="top__selling__btn">Wiew All</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- #endregion -->
+
+        <!-- #region Browse By Dress Style-->
+
+        <section class="browse__by__dress__style">
+            <div class="container browse__by__dress__style__bg">
+                <h1 class="browse__by__dress__style__title">BROWSE BY DRESS STYLE</h1>
+                <div class="browse__by__dress__style__img__div__container">
+                    <div class="browse__by__dress__style__img__div">
+                        <img class="browse__by__dress__style__img" src="./src/assets/images/casual.png">
+                        <p class="browse__by__dress__style__img__text">Casual</p>
+                    </div>
+                    <div class="browse__by__dress__style__img__div">
+                        <img class="browse__by__dress__style__img2" src="./src/assets/images/formal.png">
+                        <p class="browse__by__dress__style__img__text2">Formal</p>
+                    </div>
+                </div>
+                <div class="browse__by__dress__style__img__div__container2">
+                    <div class="browse__by__dress__style__img__div">
+                        <img class="browse__by__dress__style__img2" src="./src/assets/images/party.png">
+                        <p class="browse__by__dress__style__img__text">Party</p>
+                    </div>
+                    <div class="browse__by__dress__style__img__div">
+                        <img class="browse__by__dress__style__img" src="./src/assets/images/gym.png">
+                        <p class="browse__by__dress__style__img__text2">Gym</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- #endregion -->
+
+        <!-- #region Customers -->
+
+        <section class="customers">
+            <div class="container">
+                <div class="customers__title__icons">
+                    <h1 class="customers__title">OUR HAPPY CUSTOMERS</h1>
+                    <div class="swiper__icons">
+                        <img class="swiper__left__icon" src="./src/assets/icons/LeftIcon.svg">
+                        <img class="swiper__right__icon" src="./src/assets/icons/RightIcon.svg">
+                    </div>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="customers__card">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <div class="customers__card__title__icon">
+                                    <p class="customers__card__title">Sarah M.</p>
+                                    <img class="customers__card__checked__icon" src="./src/assets/icons/Checked.svg">
+                                </div>
+                                <p class="customers__card__subtitle">"I'm blown away by the quality and style of the
+                                    clothes I received from Shop.co. From
+                                    casual wear to elegant dresses, every piece I've bought has exceeded my
+                                    expectations.”</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="customers__card">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <div class="customers__card__title__icon">
+                                    <p class="customers__card__title">Alex K.</p>
+                                    <img class="customers__card__checked__icon" src="./src/assets/icons/Checked.svg">
+                                </div>
+                                <p class="customers__card__subtitle">"Finding clothes that align with my personal style
+                                    used to be a challenge until I discovered Shop.co. The range of options they offer
+                                    is truly remarkable, catering to a variety of tastes and occasions.”</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="customers__card">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <div class="customers__card__title__icon">
+                                    <p class="customers__card__title">James L.</p>
+                                    <img class="customers__card__checked__icon" src="./src/assets/icons/Checked.svg">
+                                </div>
+                                <p class="customers__card__subtitle">"As someone who's always on the lookout for unique
+                                    fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes
+                                    is not only diverse but also on-point with the latest trends.”</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="customers__card">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <div class="customers__card__title__icon">
+                                    <p class="customers__card__title">Sarah M.</p>
+                                    <img class="customers__card__checked__icon" src="./src/assets/icons/Checked.svg">
+                                </div>
+                                <p class="customers__card__subtitle">"I'm blown away by the quality and style of the
+                                    clothes I received from Shop.co. From
+                                    casual wear to elegant dresses, every piece I've bought has exceeded my
+                                    expectations.”</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="customers__card">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <div class="customers__card__title__icon">
+                                    <p class="customers__card__title">Alex K.</p>
+                                    <img class="customers__card__checked__icon" src="./src/assets/icons/Checked.svg">
+                                </div>
+                                <p class="customers__card__subtitle">"Finding clothes that align with my personal style
+                                    used to be a challenge until I discovered Shop.co. The range of options they offer
+                                    is truly remarkable, catering to a variety of tastes and occasions.”</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="customers__card">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <img class="customers__card__star__icon" src="./src/assets/icons/YellowStarIcon.svg">
+                                <div class="customers__card__title__icon">
+                                    <p class="customers__card__title">James L.</p>
+                                    <img class="customers__card__checked__icon" src="./src/assets/icons/Checked.svg">
+                                </div>
+                                <p class="customers__card__subtitle">"As someone who's always on the lookout for unique
+                                    fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes
+                                    is not only diverse but also on-point with the latest trends.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- #endregion -->
+        
+    </main>
+
+    <!-- #region Footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="subscribe__input__div">
+                <div class="subscribe__input__div__left">
+                    <p class="subscribe__input__div__left__content">STAY UPTO DATE ABOUT OUR LATEST OFFERS</p>
+                </div>
+                <div class="subscribe__input__div__right">
+                    <div class="icon__input">
+                        <img src="./src/assets/icons/EmailBoxIcon.svg">
+                        <input class="subscribe__input__div__right__input" placeholder="Enter your email address">
+                    </div>
+                    <button class="subscribe__input__div__right__btn">Subscribe to Newsletter</button>
+                </div>
+            </div>
+            <div class="footer__content">
+                <div class="footer__about__area">
+                    <h1 class="footer__about__area__title">SHOP.CO</h1>
+                    <p class="footer__about__area__subtitle">We have clothes that suits your style and which you’re
+                        proud to wear. From women to men.</p>
+                    <img class="footer__about__area__icon" src="./src/assets/icons/TwitterIcon.svg">
+                    <img class="footer__about__area__icon" src="./src/assets/icons/FacebookIcon.svg">
+                    <img class="footer__about__area__icon" src="./src/assets/icons/InstagramIcon.svg">
+                    <img class="footer__about__area__icon" src="./src/assets/icons/GithubIcon.svg">
+                </div>
+                <div class="footer__company__area">
+                    <h1 class="footer__company__area__title">COMPANY</h1>
+                    <a class="footer__links">About</a>
+                    <a class="footer__links">Features</a>
+                    <a class="footer__links">Works</a>
+                    <a class="footer__links">Career</a>
+                </div>
+                <div class="footer__help__area">
+                    <h1 class="footer__help__area__title">HELP</h1>
+                    <a class="footer__links">Customer Support</a>
+                    <a class="footer__links">Delivery Details</a>
+                    <a class="footer__links">Terms & Conditions</a>
+                    <a class="footer__links">Privacy Policy</a>
+                </div>
+                <div class="footer__faq__area">
+                    <h1 class="footer__faq__area__title">FAQ</h1>
+                    <a class="footer__links">Account</a>
+                    <a class="footer__links">Manage Deliveries</a>
+                    <a class="footer__links">Orders</a>
+                    <a class="footer__links">Payments</a>
+                </div>
+                <div class="footer__resources__area">
+                    <h1 class="footer__resources__area__title">RESOURCES</h1>
+                    <a class="footer__links">Free eBooks</a>
+                    <a class="footer__links">Development Tutorial</a>
+                    <a class="footer__links">How to - Blog</a>
+                    <a class="footer__links">Youtube Playlist</a>
+                </div>
+            </div>
+            <div class="footer__line"></div>
+            <div class="footer__bottom">
+                <div class="footer__bottom__left">
+                    <p class="footer__bottom__left__content">Shop.co © 2000-2023, All Rights Reserved</p>
+                </div>
+                <div class="footer__bottom__right">
+                    <img src="./src/assets/icons/VisaIcon.svg">
+                    <img src="./src/assets/icons/Visa2Icon.svg">
+                    <img src="./src/assets/icons/PayPaIIcon.svg">
+                    <img src="./src/assets/icons/ApplePayIcon.svg">
+                    <img src="./src/assets/icons/GooglePayIcon.svg">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- #endregion -->
+
+    <!-- #region Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 20,
+            loop: true,
+            navigation: {
+                nextEl: ".swiper__right__icon",
+                prevEl: ".swiper__left__icon",
+                clickable: true,
+            },
+        });
+    </script>
+
+    <!-- #endregion -->
 
 </body>
 
