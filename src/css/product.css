@@ -146,18 +146,31 @@ hr {
 .containerMenu {
     margin: 0 auto;
     max-width: 1240px;
-    display: flex;
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    grid-row:1fr 1fr 1fr ;
     gap: 40px;
 }
 
 .leftMenu {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 24px;
+
+}
+.thumbs{
+    display: grid;
+    grid-auto-rows: min-content;
+    gap: 30px;
+}
+.main-frame{
     display: flex;
-    margin-top: 40px;
+    gap: 10px;
+
 }
 
-.smallTshirts {
-    margin-right: 20px;
-}
+
+
 
 .tshirtstype {
     padding-top: 8px;
@@ -367,7 +380,7 @@ button {
 
 .activecommet {
     color: black;
-    padding-bottom: 23px;
+    
 
 
 
@@ -465,4 +478,46 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
+}
+@media (max-width : 900px) {
+    .nav{
+        display: none;
+    }
+    .containerMenu{
+       display: block;
+    }
+    
+   
+    .leftMenu{
+        display:grid;
+       
+
+        gap: 16px;
+    }
+    .main-frame{
+        order: 1;
+       
+    }
+
+    .thumbs{
+        display: grid;
+        order: 2;
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+        gap: 9px;
+       
+    }
+   
+    .commentcards {
+        grid-template-columns: 1fr;
+    }
+    .thirtstype{
+        text-align: center;
+        grid-template-columns: 1fr;
+        
+        
+    }
+
+
+
 }
